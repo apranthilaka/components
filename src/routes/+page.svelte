@@ -10,7 +10,7 @@
 
 <div class="flex h-screen w-full items-center justify-center bg-slate-50 text-sm text-neutral-600">
 	{#if show}
-		<div in:fly={{ y: 20, duration: 800 }} class="flex flex-col items-center justify-center p-10">
+		<div in:fly={{ y: 20, duration: 700 }} class="flex flex-col items-center justify-center p-10">
 			<div class="mb-2 text-base font-medium">Work In Progress, Projects are Launching Soon!.</div>
 			⌁
 
