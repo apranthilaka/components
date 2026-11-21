@@ -22,7 +22,7 @@
 				<span class="text-sm font-medium text-slate-950 dark:text-zinc-300">Current Stack</span>
 
 				<div class="text-sm text-slate-600 dark:text-orange-500">
-					Sveltekit • Tailwind4 • cloudflare
+					Sveltekit • Tailwind4 • Cloudflare
 				</div>
 				<div class="text-sm text-slate-600 dark:text-zinc-400">
 					Prevoius: NextJS • Shadcn • StoryBook
