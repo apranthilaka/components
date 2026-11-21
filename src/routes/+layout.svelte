@@ -21,7 +21,7 @@
 		<Toggler />
 	</header>
 
-	<main class="no-scrollbar min-h-0 w-full max-w-360 flex-1 overflow-x-hidden overflow-y-auto">
+	<main class="no-scrollbar min-h-0 w-full flex-1 overflow-x-hidden overflow-y-auto">
 		{@render children()}
 	</main>
 </div>
