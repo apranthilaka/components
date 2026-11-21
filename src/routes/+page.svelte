@@ -32,9 +32,7 @@
 			<span class="my-1 dark:text-orange-500">⌁</span>
 			<div class="mb-3 flex flex-col text-center">
 				<span class="text-sm font-medium text-slate-950 dark:text-zinc-300">Status</span>
-				<div class="text-sm text-neutral-600 dark:text-zinc-400">
-					Migrating component architecture
-				</div>
+				<div class="text-sm text-neutral-600 dark:text-zinc-400">Migrating components...</div>
 			</div>
 
 			<!-- <div>
