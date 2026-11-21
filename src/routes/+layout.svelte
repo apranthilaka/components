@@ -13,7 +13,7 @@
 
 <div class="flex h-screen w-full flex-col items-center justify-center overflow-hidden">
 	<header
-		class="flex h-12 w-full shrink-0 flex-row items-center justify-between border-b border-b-neutral-200 bg-slate-100 px-11 text-sm dark:border-b-zinc-900 dark:bg-zinc-950 dark:text-neutral-500"
+		class="flex h-14 w-full shrink-0 flex-row items-center justify-between border-b border-b-neutral-200 bg-slate-100 px-2 text-sm dark:border-b-zinc-900 dark:bg-zinc-950 dark:text-neutral-500"
 	>
 		<div>
 			<a class="font-normal text-neutral-700 dark:text-zinc-200" href="./">@apranthilaka</a>

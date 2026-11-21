@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { Sun, Moon } from '@lucide/svelte';
+
 	function toggleDark() {
 		const isDark = document.documentElement.classList.toggle('dark');
 		localStorage.setItem('theme', isDark ? 'dark' : 'light');
@@ -9,8 +11,9 @@
 	<button
 		type="button"
 		onclick={toggleDark}
-		class="rounded-lg border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-sm hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:bg-zinc-800"
+		class="inline-flex h-9 w-9 items-center justify-center gap-2 rounded-lg border border-zinc-200 bg-zinc-50 text-sm hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:bg-zinc-800"
 	>
-		Switch Theme
+		<Moon size={16} class="block dark:hidden" />
+		<Sun size={16} class="hidden dark:block" />
 	</button>
 </div>

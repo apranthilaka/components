@@ -1,4 +1,5 @@
-@import url('https://googleapis.com');
+/* @import url('https://googleapis.com'); */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
@@ -6,11 +7,15 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-	/* Makes Figtree the default font across your entire app */
+	/* Makes Figtree the default sans font */
 	--font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
-
-	/* Or creates a `font-figtree` utility class */
 	--font-figtree: 'Figtree', sans-serif;
+
+	/* Makes JetBrains Mono the default monospace font (`font-mono`, `<code>`, `<pre>`) */
+	--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+	/* Optional: creates a dedicated `font-jetbrains` utility class */
+	--font-jetbrains: 'JetBrains Mono', monospace;
 }
 
 @utility no-scrollbar {

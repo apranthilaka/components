@@ -8,9 +8,7 @@
 	});
 </script>
 
-<div
-	class="flex h-full items-center justify-center bg-slate-100 dark:bg-zinc-950 dark:text-neutral-500"
->
+<div class="flex h-full items-center justify-center dark:bg-zinc-950 dark:text-neutral-500">
 	{#if show}
 		<div in:fly={{ y: 20, duration: 700 }} class="flex flex-col items-center justify-center p-10">
 			<div class="mb-2 text-base font-medium text-slate-950 dark:text-zinc-300">
