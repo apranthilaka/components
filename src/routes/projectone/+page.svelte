@@ -11,52 +11,16 @@
 	let productCardDetails = $state([
 		{
 			imageUrl:
-				'https://images.unsplash.com/photo-1600375104627-c94c416deefa?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+				'https://images.unsplash.com/photo-1718382341267-aef8a9e4ecef?q=80&w=2612&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
 			productType: 'Over-ear wireless headphones',
 			productTitle: 'Apple AirPods Max',
 			productDescription:
-				'Premium over-ear headphones with active noise cancellation, Transparency mode, and personalized Spatial Audio. The knit-mesh canopy and memory-foam ear cushions provide a comfortable fit for immersive listening.',
+				'Premium over-ear headphones with active noise cancellation, Transparency mode, and personalized Spatial Audio. ',
 			productPrice: '$549.00'
 		},
 		{
 			imageUrl:
-				'https://images.unsplash.com/photo-1773070309549-8123488410d7?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
-			productType: 'Skincare · Gel Facial Cleanser',
-			productTitle: 'Éla de Pure Hydrating Cleanser',
-			productDescription:
-				'A gentle, sulfate-free gel cleanser for all skin types. Infused with aloe vera and hyaluronic acid to lift away impurities while leaving skin feeling soft and hydrated. 150 ml.',
-			productPrice: '$549.99'
-		},
-		{
-			imageUrl:
-				'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
-			productType: 'House for sale',
-			productTitle: 'Modern Family Home',
-			productDescription:
-				'3 bedrooms · 2 bathrooms · 1,850 sq ft. A bright modern home with an open-plan kitchen, landscaped garden, and attached garage.',
-			productPrice: '$4M'
-		},
-		{
-			imageUrl:
-				'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
-			productType: 'Sports car',
-			productTitle: 'Porsche 911 Carrera',
-			productDescription:
-				'2024 · 2-door coupe · 3.0L twin-turbo. A precise, high-performance sports car with a rear-engine layout and premium leather interior.',
-			productPrice: '$144,250'
-		},
-		{
-			imageUrl:
-				'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2400&auto=format&fit=crop',
-			productType: 'Running shoes',
-			productTitle: 'Nike Air Zoom Pegasus',
-			productDescription:
-				'Lightweight road-running shoes with responsive cushioning and a breathable mesh upper, designed for everyday training.',
-			productPrice: '$130.00'
-		},
-		{
-			imageUrl:
-				'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2400&auto=format&fit=crop',
+				'https://plus.unsplash.com/premium_photo-1682148393028-d43b5782c9fc?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
 			productType: 'Electronics · Smartphone',
 			productTitle: 'Google Pixel 9',
 			productDescription:
@@ -65,7 +29,44 @@
 		},
 		{
 			imageUrl:
-				'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=2400&auto=format&fit=crop',
+				'https://images.unsplash.com/photo-1605204345996-b383a94657be?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+			productType: 'Skincare · Gel Facial Cleanser',
+			productTitle: 'Éla de Pure Hydrating Cleanser',
+			productDescription:
+				'A gentle, sulfate-free gel cleanser for all skin types. Infused with aloe vera lift away impurities while leaving skin feeling soft and hydrated.',
+			productPrice: '$549.99'
+		},
+		{
+			imageUrl:
+				'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=2650&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+			productType: 'Running shoes',
+			productTitle: 'Nike Air Zoom Pegasus',
+			productDescription:
+				'Lightweight road-running shoes with responsive cushioning and a breathable mesh upper, designed for everyday training.',
+			productPrice: '$130.00'
+		},
+		{
+			imageUrl:
+				'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2758&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+			productType: 'House for sale',
+			productTitle: 'Modern Family Home',
+			productDescription:
+				'3 bedrooms · 2 bathrooms · 1,850 sq ft. A bright modern home with an open-plan kitchen, landscaped garden, and attached garage.',
+			productPrice: '$4M'
+		},
+		{
+			imageUrl:
+				'https://images.unsplash.com/photo-1634988115812-25d06b7201fa?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+			productType: 'Sports car',
+			productTitle: 'Tesla 911 Carrera',
+			productDescription:
+				'2024 · 2-door coupe · 3.0L twin-turbo. A precise, high-performance sports car with a rear-engine layout and premium leather interior.',
+			productPrice: '$144,250'
+		},
+
+		{
+			imageUrl:
+				'https://images.unsplash.com/flagged/photo-1553802922-2eb2f7f2c65b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
 			productType: 'Accessories · Leather handbag',
 			productTitle: 'Everyday Leather Tote',
 			productDescription:
@@ -89,7 +90,7 @@
 		in:fly={{ y: 20, duration: 700 }}
 		class="flex flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300"
 	>
-		<div>
+		<div class="max-w-[1044px]">
 			<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">Stack Store UX Revamp</p>
 			<p class="mt-4 text-3xl leading-11">
 				As part of a recent UX initiative, I collaborated with a local e-commerce platform to audit
@@ -98,7 +99,7 @@
 				implemented to optimize the overall user journey.
 			</p>
 		</div>
-		<div>
+		<div class="max-w-[1044px]">
 			<p class="text-xl font-semibold">Reducing Card Clutter & Simplifying Entry Points</p>
 			<p class="text-lg">
 				To reduce cognitive overload, product cards dynamically adapt to each step of the user
@@ -132,7 +133,7 @@
 	index = 0
 })}
 	<div
-		in:fly={{ y: 200, duration: 500, delay: 100 + index * 5000 }}
+		in:fly|global={{ y: 50, duration: 500, delay: 100 + index * 150 }}
 		class="flex h-200 flex-col justify-center rounded-lg border border-slate-200 bg-white shadow-sm dark:border-zinc-700 dark:bg-zinc-900"
 	>
 		<div
@@ -141,7 +142,7 @@
 		></div>
 		<!-- data container  -->
 		<div class="flex flex-col gap-4 p-8">
-			<div class="text-sm text-slate-400 dark:text-zinc-400">{productType}</div>
+			<div class="font-mono text-sm text-slate-400 dark:text-zinc-400">{productType}</div>
 			<div class="text-3xl font-semibold dark:text-zinc-100">{productTitle}</div>
 			<div class="text-slate-600 dark:text-zinc-400">{productDescription}</div>
 			<div>Selects</div>
@@ -150,7 +151,7 @@
 				<div>
 					<button
 						class="h-12 rounded-md border bg-neutral-800 px-7 text-sm font-semibold text-slate-50 uppercase dark:border-zinc-700 dark:text-zinc-200 hover:dark:text-zinc-50"
-						>Add to marsket</button
+						>Add to basket</button
 					>
 				</div>
 			</div>
