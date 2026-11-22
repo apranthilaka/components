@@ -12,30 +12,36 @@
 	{#if show}
 		<div in:fly={{ y: 20, duration: 700 }} class="flex flex-col items-center justify-center p-10">
 			<div class="mb-2 text-base font-medium text-slate-950 dark:text-zinc-300">
-				Work In Progress, Projects are Launching Soon!.
+				Migrating Components, Projects are Launching Soon!.
 			</div>
 			<span class="my-1 dark:text-orange-500">⌁</span>
 
 			<div class="mb-2 text-center">
 				<span class="text-sm font-medium text-slate-950 dark:text-zinc-300">Current Stack</span>
 
-				<div class="text-sm text-slate-600 dark:text-orange-500">
+				<div class="text-sm text-slate-700 dark:text-green-500">
 					Sveltekit • Tailwind4 • Cloudflare
 				</div>
-				<div class="text-sm text-slate-600 dark:text-zinc-400">
+				<div class="text-sm text-slate-700 dark:text-zinc-300">
 					Prevoius: NextJS • Shadcn • StoryBook
 				</div>
 			</div>
 
 			<span class="my-1 dark:text-orange-500">⌁</span>
-			<div class="mb-3 flex flex-col text-center">
-				<span class="text-sm font-medium text-slate-950 dark:text-zinc-300">Status</span>
-				<div class="text-sm text-neutral-600 dark:text-zinc-400">Migrating components...</div>
-			</div>
 
-			<!-- <div>
-				<a href="/projectone">Project Pne</a>
-			</div> -->
+			<div class="flex flex-col">
+				<div class="w-full text-center text-sm font-medium text-slate-950 dark:text-zinc-300">
+					2027 Projects
+				</div>
+				<div>
+					<a
+						class="inline-flex w-full items-center justify-center text-center text-sm text-slate-700 underline dark:text-blue-500"
+						href="/projectone"
+					>
+						StackStore
+					</a>
+				</div>
+			</div>
 		</div>
 	{/if}
 </div>

@@ -87,7 +87,7 @@
 
 {#if animationState}
 	<main
-		in:fly={{ y: 20, duration: 700 }}
+		in:fly={{ y: 50, duration: 700 }}
 		class="flex flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300"
 	>
 		<div class="max-w-[1044px]">
@@ -151,8 +151,9 @@
 				<div>
 					<button
 						class="h-12 rounded-md border bg-neutral-800 px-7 text-sm font-semibold text-slate-50 uppercase dark:border-zinc-700 dark:text-zinc-200 hover:dark:text-zinc-50"
-						>Add to basket</button
 					>
+						Add to basket
+					</button>
 				</div>
 			</div>
 		</div>
