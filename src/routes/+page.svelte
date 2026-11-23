@@ -17,29 +17,35 @@
 			<span class="my-1 dark:text-orange-500">⌁</span>
 
 			<div class="mb-2 text-center">
-				<span class="text-sm font-medium text-slate-950 dark:text-zinc-300">Current Stack</span>
+				<span class="text-sm font-medium text-slate-950 dark:text-zinc-500">Current Stack</span>
 
-				<div class="text-sm text-slate-700 dark:text-green-500">
-					Sveltekit • Tailwind4 • Cloudflare
-				</div>
-				<div class="text-sm text-slate-700 dark:text-zinc-300">
-					Prevoius: NextJS • Shadcn • StoryBook
-				</div>
+				<div class=" text-slate-700 dark:text-orange-500">Sveltekit • Tailwind4 • Cloudflare</div>
+				<div class=" text-slate-700 dark:text-zinc-300">Prevoius: NextJS • Shadcn • StoryBook</div>
 			</div>
 
 			<span class="my-1 dark:text-orange-500">⌁</span>
 
 			<div class="flex flex-col">
-				<div class="w-full text-center text-sm font-medium text-slate-950 dark:text-zinc-300">
+				<div class="w-full text-center text-sm font-medium text-slate-950 dark:text-zinc-500">
 					2027 Projects
 				</div>
-				<div>
-					<a
-						class="inline-flex w-full items-center justify-center text-center text-sm text-slate-700 underline dark:text-blue-500"
-						href="/projectone"
-					>
-						StackStore
-					</a>
+				<div class="flex gap-4">
+					<div>
+						<a
+							class="inline-flex w-full items-center justify-center text-center text-slate-700 underline dark:text-orange-500"
+							href="/stackstore"
+						>
+							StackStore
+						</a>
+					</div>
+					<div>
+						<a
+							class="inline-flex w-full items-center justify-center text-center text-slate-700 underline dark:text-orange-500"
+							href="/metaful"
+						>
+							Metaful
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
