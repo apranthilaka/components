@@ -19,11 +19,12 @@
 	</div>
 
 	<div
-		class="neutrak-500 bg:border-zinc-800 aspect-1920/1080 w-full rounded-lg border border-neutral-300 bg-slate-200/50 object-cover p-5 dark:border-orange-600 dark:bg-zinc-800"
+		class="neutrak-500 bg:border-zinc-800 aspect-1920/1080 w-full rounded-lg border border-neutral-300 bg-slate-200/50 object-cover p-10 dark:border-zinc-700 dark:bg-zinc-800"
+		style="background-image: url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);"
 	>
 		<!-- <div>Figma Proto</div> -->
 		<iframe
-			class="h-full w-full border-none"
+			class="h-full w-full overflow-hidden rounded-lg border-none"
 			src="https://embed.figma.com/proto/OiECY5HRCcUmrRlP5ZVQXa/Desktop-Designs?node-id=1917-14051&viewport=531%2C348%2C0.23&scaling=contain&content-scaling=responsive&page-id=0%3A1&embed-host=share"
 			allowfullscreen
 		></iframe>

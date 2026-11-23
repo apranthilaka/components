@@ -15,15 +15,28 @@
 	<header
 		class="flex h-15 w-full shrink-0 flex-row items-center justify-between border-b border-b-neutral-200 bg-slate-100 px-11 text-sm dark:border-b-zinc-900 dark:bg-zinc-950 dark:text-neutral-500"
 	>
-		<div>
+		<div class="flex flex-row gap-4">
+			<a class=" font-jetbrains text-sm text-neutral-700 dark:text-orange-500" href="./">
+				@components
+			</a>
+		</div>
+		<div class="flex flex-row items-center gap-4">
 			<a
-				class=" font-jetbrains text-base tracking-wide text-neutral-700 dark:text-orange-500"
-				href="./"
+				target="_blank"
+				class=" font-jetbrains text-sm text-neutral-700 dark:text-orange-500"
+				href="https://apranthilaka.com/"
 			>
 				@apranthilaka
 			</a>
+			<a
+				target="_blank"
+				class=" cursor-not-allowed font-jetbrains text-sm text-neutral-700 dark:text-orange-500"
+				href="#"
+			>
+				About Me
+			</a>
+			<Toggler />
 		</div>
-		<Toggler />
 	</header>
 
 	<main class="no-scrollbar min-h-0 w-full flex-1 overflow-x-hidden overflow-y-auto">
