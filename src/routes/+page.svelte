@@ -50,6 +50,32 @@
 							Metaful
 						</a>
 					</div>
+
+					<div>
+						<a
+							class="inline-flex w-full items-center justify-center text-center text-sm text-orange-600 dark:text-orange-500"
+							href="/kaleora"
+						>
+							Kaleora
+						</a>
+					</div>
+					<div>
+						<a
+							class="inline-flex w-full items-center justify-center text-center text-sm text-orange-600 dark:text-orange-500"
+							href="/obrand"
+						>
+							Obrand
+						</a>
+					</div>
+
+					<div>
+						<a
+							class="inline-flex w-full items-center justify-center text-center text-sm text-orange-600 dark:text-orange-500"
+							href="/eyecandy"
+						>
+							EyeCandy
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
