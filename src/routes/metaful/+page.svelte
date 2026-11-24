@@ -1,4 +1,4 @@
-<div class="flex max-w-[1200px] flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300">
+<div class="flex max-w-[1440px] flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300">
 	<div class="max-w-[1200px]">
 		<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">
 			Metaful: Team Management Dashboard
@@ -45,15 +45,6 @@
 			3. Capacity and access aren't visible. Managers often find out they're out of seats, or that
 			someone has the wrong access, only after something goes wrong. That information should be
 			visible at a glance.
-		</p>
-	</div>
-
-	<div class="max-w-[1200px]">
-		<p class="mt-4 text-lg">
-			Since you only have a design solution for the first problem, you could trim the list to the
-			problems your dashboard actually answers. Problem 2 fits too, since the table layout is your
-			solution there, and problem 3 fits because of the seat count in the header. If you'd rather
-			keep it to one, problem 1 on its own works fine.
 		</p>
 	</div>
 </div>

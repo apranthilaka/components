@@ -26,24 +26,24 @@
 			productDescription:
 				'A feature-rich smartphone with an advanced camera system, bright display, and all-day battery life.',
 			productPrice: '$799.00'
-		}
+		},
 
-		// {
-		// 	imageUrl:
-		// 		'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=2650&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
-		// 	productType: 'Running shoes',
-		// 	productTitle: 'Nike Air Zoom Pegasus',
-		// 	productDescription:
-		// 		'Lightweight road-running shoes with responsive cushioning and a breathable mesh, ideal for everyday training.',
-		// 	productPrice: '$130.00'
-		// }
+		{
+			imageUrl:
+				'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=2650&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+			productType: 'Running shoes',
+			productTitle: 'Nike Air Zoom Pegasus',
+			productDescription:
+				'Lightweight road-running shoes with responsive cushioning and a breathable mesh, ideal for everyday training.',
+			productPrice: '$130.00'
+		}
 	]);
 </script>
 
 {#if animationState}
 	<main
 		in:fly={{ y: 50, duration: 700 }}
-		class="flex h-auto w-full max-w-400 max-w-[1200px] flex-col gap-20 p-10 text-base text-slate-800 dark:text-zinc-300"
+		class="flex h-auto w-full max-w-400 max-w-[1440px] flex-col gap-20 p-10 text-base text-slate-800 dark:text-zinc-300"
 	>
 		<div class="max-w-[1044px]">
 			<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">Stack Store UX Revamp</p>
