@@ -2,7 +2,7 @@
 	import ComponentOne from './components/ComponentOne.svelte';
 </script>
 
-<div class="flex flex-col gap-20 text-base text-slate-800 dark:text-zinc-300">
+<div class="flex h-auto w-full flex-col gap-20 text-slate-800 dark:text-zinc-300">
 	<div class="max-w-300">
 		<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">
 			Metaful: Beautiful Components

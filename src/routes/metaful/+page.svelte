@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300">
+<div class="flex max-w-[1200px] flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300">
 	<div class="max-w-[1200px]">
 		<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">
 			Metaful: Team Management Dashboard
