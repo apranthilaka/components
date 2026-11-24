@@ -13,10 +13,11 @@
 			behavior—then test the results here.
 		</p>
 	</div>
-	<div class="grid auto-rows-200 grid-cols-[repeat(auto-fit,minmax(700px,1fr))]">
+	<div class="grid auto-rows-200 grid-cols-[repeat(auto-fit,minmax(700px,1fr))] gap-5">
 		<div class="h-full w-full border">
 			<ComponentOne />
 		</div>
+		<div class="h-full w-full border">Data 1</div>
 		<div class="h-full w-full border">Data 1</div>
 		<div class="h-full w-full border">Data 1</div>
 		<div class="h-full w-full border">Data 1</div>

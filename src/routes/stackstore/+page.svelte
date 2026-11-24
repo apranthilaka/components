@@ -34,7 +34,7 @@
 			productType: 'Running shoes',
 			productTitle: 'Nike Air Zoom Pegasus',
 			productDescription:
-				'Lightweight road-running shoes with responsive cushioning and a breathable mesh, ideal for everyday training.',
+				'Lightweight running shoes with responsive cushioning and a breathable mesh, ideal for everyday use.',
 			productPrice: '$130.00'
 		}
 	]);
@@ -43,9 +43,9 @@
 {#if animationState}
 	<main
 		in:fly={{ y: 50, duration: 700 }}
-		class="flex h-auto w-full max-w-400 max-w-[1440px] flex-col gap-20 p-10 text-base text-slate-800 dark:text-zinc-300"
+		class="flex h-auto w-full max-w-360 flex-col gap-20 p-10 text-base text-slate-800 dark:text-zinc-300"
 	>
-		<div class="max-w-[1044px]">
+		<div class="w-full">
 			<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">Stack Store UX Revamp</p>
 			<p class="mt-4 text-3xl leading-11">
 				As part of a recent UX initiative, I collaborated with a local e-commerce platform to audit
@@ -54,7 +54,7 @@
 				implemented to optimize the overall user journey.
 			</p>
 		</div>
-		<div class="max-w-[1044px]">
+		<div class="w-full">
 			<p class="text-xl font-semibold">Reducing Card Clutter & Simplifying Entry Points</p>
 			<p class="text-lg">
 				To reduce cognitive overload, product cards dynamically adapt to each step of the user
@@ -62,7 +62,7 @@
 			</p>
 		</div>
 
-		<div class="flex flex-col gap-5">
+		<div class="flex w-full flex-col gap-5">
 			<div
 				class="grid auto-rows-150 grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-5 rounded-lg border border-slate-300 bg-white px-8 py-9 dark:border-zinc-700 dark:bg-zinc-950"
 			>
@@ -78,20 +78,12 @@
 				{/each}
 			</div>
 
-			<div
+			<!-- <div
 				class="grid auto-rows-150 grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-5 rounded-lg border border-slate-300 bg-white px-8 py-9 dark:border-zinc-700 dark:bg-zinc-950"
 			>
 				<PurchaseCard />
-			</div>
+			</div> -->
 		</div>
-		<!-- <div class="max-w-[1044px]">
-			<p class="text-xl font-semibold">Reducing Card Clutter & Simplifying Entry Points</p>
-			<p class="text-lg">
-				"To reduce cognitive overload, product cards start simple and dynamically adapt to the
-				user's journey—displaying only the essential information and actions required at each
-				stage."
-			</p>
-		</div> -->
 	</main>
 {/if}
 
@@ -117,7 +109,7 @@
 		<!-- data container  -->
 		<div class="flex flex-col gap-3 px-8 py-7">
 			<div class="font-mono text-xs text-slate-400 dark:text-zinc-400">{productType}</div>
-			<div class="text-2xl font-semibold dark:text-zinc-100">{productTitle}</div>
+			<div class="text-base font-semibold dark:text-zinc-100">{productTitle}</div>
 			<div class="text-sm text-slate-600 dark:text-zinc-400">{productDescription}</div>
 			<!-- <div>Selects</div> -->
 			<div class="flex flex-row items-center justify-between">

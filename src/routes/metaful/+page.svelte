@@ -1,4 +1,13 @@
-<div class="flex max-w-[1440px] flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300">
+<div class=" aspect-1920/1080 w-full dark:border-zinc-700 dark:bg-zinc-800">
+	<!-- <div>Figma Proto</div> -->
+	<iframe
+		class="h-full w-full border-none bg-transparent"
+		src="https://embed.figma.com/proto/OiECY5HRCcUmrRlP5ZVQXa/Desktop-Designs?node-id=1917-14051&viewport=531%2C348%2C0.23&scaling=contain&content-scaling=responsive&page-id=0%3A1&embed-host=share"
+		allowfullscreen
+	></iframe>
+</div>
+
+<div class="flex w-full max-w-360 flex-col gap-20 p-11 text-base text-slate-800 dark:text-zinc-300">
 	<div class="max-w-[1200px]">
 		<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">
 			Metaful: Team Management Dashboard
