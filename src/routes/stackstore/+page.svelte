@@ -84,14 +84,14 @@
 				<PurchaseCard />
 			</div>
 		</div>
-		<div class="max-w-[1044px]">
+		<!-- <div class="max-w-[1044px]">
 			<p class="text-xl font-semibold">Reducing Card Clutter & Simplifying Entry Points</p>
 			<p class="text-lg">
 				"To reduce cognitive overload, product cards start simple and dynamically adapt to the
 				user's journey—displaying only the essential information and actions required at each
 				stage."
 			</p>
-		</div>
+		</div> -->
 	</main>
 {/if}
 
