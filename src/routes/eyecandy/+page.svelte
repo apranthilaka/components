@@ -17,13 +17,13 @@
 		<div class="h-full w-full border">
 			<ComponentOne />
 		</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
-		<div class="h-full w-full border">Data 1</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
 	</div>
 </div>

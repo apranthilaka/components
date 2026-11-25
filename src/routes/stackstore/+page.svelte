@@ -41,13 +41,12 @@
 </script>
 
 {#if animationState}
-	<main
-		in:fly={{ y: 50, duration: 700 }}
-		class="flex h-auto w-full max-w-360 flex-col gap-20 p-10 text-base text-slate-800 dark:text-zinc-300"
-	>
+	<main in:fly={{ y: 50, duration: 700 }} class="flex h-auto w-full max-w-360 flex-col gap-20 p-1">
 		<div class="w-full">
-			<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">Stack Store UX Revamp</p>
-			<p class="mt-4 text-3xl leading-11">
+			<p class="text-5xl font-semibold text-neutral-950 dark:text-zinc-100">
+				Stack Store UX Revamp
+			</p>
+			<p class="mt-4 text-3xl leading-11 text-neutral-500">
 				As part of a recent UX initiative, I collaborated with a local e-commerce platform to audit
 				the existing experience and solve critical usability bottlenecks. This case study highlights
 				key friction points discovered during the audit and details the targeted design solutions
@@ -55,8 +54,10 @@
 			</p>
 		</div>
 		<div class="w-full">
-			<p class="text-xl font-semibold">Reducing Card Clutter & Simplifying Entry Points</p>
-			<p class="text-lg">
+			<p class="text-xl font-semibold text-neutral-950">
+				Reducing Card Clutter & Simplifying Entry Points
+			</p>
+			<p class="mt-2 text-xl text-neutral-500">
 				To reduce cognitive overload, product cards dynamically adapt to each step of the user
 				flow—displaying only the essential information and actions required for that specific stage.
 			</p>
@@ -64,7 +65,7 @@
 
 		<div class="flex w-full flex-col gap-5">
 			<div
-				class="grid auto-rows-150 grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-5 rounded-lg border border-slate-300 bg-white px-8 py-9 dark:border-zinc-700 dark:bg-zinc-950"
+				class="grid auto-rows-150 grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-5 rounded-lg border border-neutral-200 p-4 dark:border-zinc-700 dark:bg-zinc-950"
 			>
 				{#each productCardDetails as cardDetails, index (cardDetails.productTitle)}
 					{@render simpleProductCard({
@@ -97,7 +98,7 @@
 })}
 	<div
 		in:fly|global={{ y: 50, duration: 500, delay: 100 + index * 150 }}
-		class="flex h-full flex-col justify-center overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm dark:border-zinc-700 dark:bg-zinc-900"
+		class="flex h-full flex-col justify-center overflow-hidden rounded-lg bg-white shadow-sm dark:bg-neutral-900"
 	>
 		<!-- image container  -->
 		<div
@@ -107,16 +108,20 @@
 		<!-- image container  -->
 
 		<!-- data container  -->
-		<div class="flex flex-col gap-3 px-8 py-7">
-			<div class="font-mono text-xs text-slate-400 dark:text-zinc-400">{productType}</div>
-			<div class="text-base font-semibold dark:text-zinc-100">{productTitle}</div>
-			<div class="text-sm text-slate-600 dark:text-zinc-400">{productDescription}</div>
+		<div class="flex flex-col gap-2 px-8 py-7">
+			<div class="flex flex-col gap-1">
+				<div class="font-mono text-xs text-neutral-400 dark:text-zinc-400">{productType}</div>
+				<div class="text-lg font-semibold text-neutral-950 dark:text-zinc-100">{productTitle}</div>
+			</div>
+			<div class="text-base text-neutral-500 dark:text-zinc-400">{productDescription}</div>
 			<!-- <div>Selects</div> -->
-			<div class="flex flex-row items-center justify-between">
-				<div class="font-mono text-2xl font-bold dark:text-zinc-100">{productPrice}</div>
+			<div class="mt-2 flex flex-row items-center justify-between">
+				<div class="font-mono text-2xl font-bold text-neutral-950 dark:text-zinc-100">
+					{productPrice}
+				</div>
 
 				<button
-					class="flex h-11 items-center justify-center rounded-md border border-neutral-300 bg-neutral-100 px-5 text-sm text-[13px] font-semibold text-neutral-950 uppercase transition-all delay-75 hover:bg-neutral-950 hover:text-neutral-200 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-50 hover:dark:text-zinc-50"
+					class="flex h-10 items-center justify-center rounded-md bg-neutral-100 px-5 text-sm text-[13px] font-semibold text-neutral-950 uppercase shadow-sm transition-all delay-75 hover:bg-neutral-950 hover:text-white dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-50 hover:dark:text-zinc-50"
 				>
 					Add to basket
 				</button>

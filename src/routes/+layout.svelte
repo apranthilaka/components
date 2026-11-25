@@ -13,7 +13,7 @@
 
 <div class="flex h-screen w-full flex-col items-center justify-center overflow-hidden">
 	<header
-		class="flex h-15 w-full shrink-0 flex-row items-center justify-between border-b border-b-neutral-200 bg-slate-100 px-11 text-sm dark:border-b-zinc-900 dark:bg-zinc-950 dark:text-neutral-500"
+		class="flex h-15 w-full shrink-0 flex-row items-center justify-between border-b border-b-neutral-200 bg-neutral-100 px-11 text-sm dark:border-b-zinc-900 dark:bg-neutral-950 dark:text-neutral-500"
 	>
 		<div class="flex flex-row gap-4">
 			<a class=" font-jetbrains text-sm text-neutral-700 dark:text-orange-500" href="./">

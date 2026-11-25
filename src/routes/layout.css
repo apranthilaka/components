@@ -16,6 +16,9 @@
 
 	/* Optional: creates a dedicated `font-jetbrains` utility class */
 	--font-jetbrains: 'JetBrains Mono', monospace;
+
+	--text-base: 0.9375rem; /* 15px */
+	--text-base--line-height: 1.5rem; /* 24px */
 }
 
 @utility no-scrollbar {
@@ -26,4 +29,11 @@
 	/* Hide scrollbar for IE, Edge and Firefox */
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+}
+
+@layer base {
+	body {
+		font-size: var(--text-base);
+		line-height: var(--text-base--line-height);
+	}
 }
