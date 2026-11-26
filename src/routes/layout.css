@@ -40,9 +40,18 @@
 
 /* colors  */
 @theme inline {
+	/* my gray colors  */
+	--color-mygrays-25: #292929;
+	--color-mygrays-50: #272727;
+	--color-mygrays-100: #1c1c1c;
+	--color-mygrays-200: #191919;
+	--color-mygrays-300: #141414;
+
 	--color-app: var(--app);
-	--color-surface: var(--surface);
+	--color-surface-base: var(--surface-base);
 	--color-surface-muted: var(--surface-muted);
+	--color-surface-subtle: var(--surface-subtle);
+	--color-surface-strong: var(--surface-strong);
 
 	--color-line: var(--line);
 	--color-line-muted: var(--line-muted);
@@ -56,8 +65,11 @@
 
 :root {
 	--app: var(--color-neutral-100);
-	--surface: var(--color-white);
-	--surface-muted: var(--color-neutral-100);
+
+	--surface-base: var(--color-white);
+	--surface-muted: var(--color-neutral-50);
+	--surface-subtle: var(--color-neutral-100);
+	--surface-strong: var(--color-neutral-950);
 
 	--line: var(--color-neutral-300);
 	--line-muted: var(--color-neutral-200);
@@ -70,11 +82,14 @@
 }
 
 .dark {
-	--app: var(--color-neutral-950);
-	--surface: var(--color-neutral-900);
-	--surface-muted: var(--color-neutral-600);
+	--app: var(--color-mygrays-300);
 
-	--line: var(--color-neutral-800);
+	--surface-base: var(--color-mygrays-200);
+	--surface-muted: var(--color-mygrays-100);
+	--surface-subtle: var(--color-mygrays-25);
+	--surface-strong: var(--color-neutral-50);
+
+	--line: var(--color-mygrays-25);
 	--line-muted: var(--color-neutral-800);
 
 	--title: var(--color-neutral-200);

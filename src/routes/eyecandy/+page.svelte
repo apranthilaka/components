@@ -12,7 +12,9 @@
 		<div class="h-full w-full">
 			<ComponentOne />
 		</div>
-		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
+		<div class="flex h-full w-full items-center justify-center border border-line">
+			Work In Progress
+		</div>
 		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
 		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
 		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>
