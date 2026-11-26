@@ -1,20 +1,15 @@
 <script>
+	import TitleSection from '#lib/components/TitleSection.svelte';
 	import ComponentOne from './components/ComponentOne.svelte';
+	let title = 'Metaful: Beautiful Components';
+	let paragraph =
+		'I love designing and experimenting with app components. After years of bringing ideas to life in Figma, I moved to code to explore polished interactions, responsive layouts, and real-world behavior—then test the results here.';
 </script>
 
 <div class="flex h-auto w-full flex-col gap-20 text-slate-800 dark:text-zinc-300">
-	<div class="max-w-300">
-		<p class="text-5xl font-semibold text-slate-950 dark:text-zinc-100">
-			Metaful: Beautiful Components
-		</p>
-		<p class="mt-4 text-3xl leading-11">
-			I love designing and experimenting with app components. After years of bringing ideas to life
-			in Figma, I moved to code to explore polished interactions, responsive layouts, and real-world
-			behavior—then test the results here.
-		</p>
-	</div>
+	<TitleSection {title} {paragraph} />
 	<div class="grid auto-rows-200 grid-cols-[repeat(auto-fit,minmax(700px,1fr))] gap-5">
-		<div class="h-full w-full border">
+		<div class="h-full w-full">
 			<ComponentOne />
 		</div>
 		<div class="flex h-full w-full items-center justify-center border">Work In Progress</div>

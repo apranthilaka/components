@@ -11,7 +11,7 @@
 <div class="flex h-full items-center justify-center dark:bg-zinc-950 dark:text-neutral-500">
 	{#if show}
 		<div in:fly={{ y: 20, duration: 700 }} class="flex flex-col items-center justify-center p-10">
-			<div class="mb-2 text-sm text-slate-950 dark:text-zinc-300">
+			<div class="mb-2 text-base font-semibold text-slate-950 dark:text-zinc-300">
 				Migrating Components, Projects are Launching Soon!.
 			</div>
 			<span class="my-1 dark:text-orange-500">⌁</span>
@@ -26,10 +26,17 @@
 					Prevoius: NextJS • Shadcn • StoryBook
 				</div>
 			</div>
+			<!-- <span class="my-1 dark:text-orange-500">⌁</span> -->
 
-			<span class="my-1 dark:text-orange-500">⌁</span>
+			<div class="mb-2 text-center">
+				<span class="text-sm text-slate-500 dark:text-zinc-500">Status</span>
 
-			<div class="flex flex-col">
+				<div class=" text-sm text-slate-700 dark:text-orange-500">
+					Migrating Projects & Components
+				</div>
+			</div>
+
+			<!-- <div class="flex flex-col">
 				<div class="text-center text-sm text-slate-500 dark:text-zinc-500">
 					<span class="font-mono text-xs">2027</span> Projects
 				</div>
@@ -77,7 +84,7 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	{/if}
 </div>
